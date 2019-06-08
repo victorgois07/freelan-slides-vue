@@ -1,31 +1,58 @@
 <template>
-  <div id="app">
+  <div id="app" class="container-fluir">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link :to="_translationNext"><img src="@/assets/btn-previous.png" alt=""></router-link>
+      <router-link :to="_translationPrevious"><img src="@/assets/btn-next.png" alt=""></router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
+<script>
+export default {
+  computed: {
+    _translationNext () {
+      return `/${Number(this.$route.params.id) + 1}`
+    },
+    _translationPrevious () {
+      return `/${Number(this.$route.params.id) - 1}`
+    }
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  html,
+  body {
+    height: 100%;
+    margin: 0
+  }
+  div#app {
+    height: 100%;
+  }
+  .home.d-flex.align-items-center {
+    height: 100%;
+  }
+  body {
+    background-image: url('assets/back-one.png');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 510%;
+    background-color: rgb(25, 52, 51);
+  }
+  div#nav {
+    position: absolute;
+    z-index: 9;
+    right: 5%;
+    top: 10%;
+  }
+  div#nav a:first-child {
+    margin-right: 20px;
+  }
+  div#nav a:last-child {
+    margin-left: 20px;
+  }
+  div#nav a img {
+    width: 25px;
+  }
 </style>
