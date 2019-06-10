@@ -15,6 +15,7 @@
     font-family: 'Times New Roman', Times, serif;
     border: 3px solid rgb(92, 212, 98);
     background-color: rgb(25, 52, 51);
+    width: 950px;
   }
   b.b-4 {
     font-weight: normal;

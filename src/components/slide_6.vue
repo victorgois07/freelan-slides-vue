@@ -16,7 +16,7 @@ Nesse caso, receberemos <b class="b-3">F = $115</b> no futuro.
     padding-left: 40px;
   }
   article#article-slide-6 {
-    padding: 0 115vh 0 0;
+    padding: 0 65vh 0 0;
     text-align: left;
   }
   div#divcontainerslide6 div#container-text-slide-2 {
@@ -24,6 +24,10 @@ Nesse caso, receberemos <b class="b-3">F = $115</b> no futuro.
     padding-right: 110vh;
     margin-top: 90px;
     background-color: transparent;
+  }
+  div#divcontainerslide6 div#container-text-slide-2 {
+    font-size: 15px;
+    padding-right: 90vh;
   }
 </style>
 

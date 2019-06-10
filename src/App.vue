@@ -35,7 +35,7 @@ export default {
   }
   body {
     background-repeat: no-repeat;
-    background-position: 310px -520px;
+    background-position: 100% 500%;
     background-color: rgb(25, 52, 51);
   }
   div#nav {

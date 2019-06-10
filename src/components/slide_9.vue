@@ -23,8 +23,9 @@ mas agora por dois meses.
     border-radius: 10px;
     text-align: center;
     padding: 70px 90px 20px 90px;
-    width: 150vh;
-    margin-bottom: -40px;
+    width: 955px;
+    margin-bottom: 0;
+    height: 515px;
   }
   div#divcontainerslide9 h1 {
     color: #fff;
@@ -40,7 +41,7 @@ mas agora por dois meses.
     margin: 0;
   }
   div#btn-option-slide-9 div.col-6 {
-    padding-left: 12vh;
+    padding-left: 105px;
     font-family: Typori;
     font-weight: normal;
     font-size: 12px;
@@ -49,7 +50,7 @@ mas agora por dois meses.
   div#btn-option-slide-9 div.col-6 div {
     border: 3px solid #000;
     border-radius: 5px;
-    width: 40vh;
+    width: 25vh;
     padding: 20px;
   }
 </style>

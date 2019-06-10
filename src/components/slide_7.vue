@@ -27,23 +27,25 @@ Nesse caso, receberemos <b class="b-3">F = $115</b> no futuro.
   }
   div#divcontainerslide8 div#container-text-slide-2 {
     padding: 0 130vh 0 0;
-    background-color: rgb(25, 52, 51);
     margin-left: -20px;
     margin-top: 90px;
     background-color: transparent;
     opacity: 0.5;
   }
+  div#divcontainerslide8 div#container-text-slide-2 article#article-slide-2 {
+    width: 30vh;
+  }
   div#divcontainerslide8 article#article-slide-6 {
     width: 50%;
-    padding: 0 30vh 0 0;
+    padding: 0 10vh 0 0;
     margin: 0;
   }
   div#div-calc-slide-8 {
-    width: 50vh;
-    height: 50vh;
+    width: 40vh;
+    height: 40vh;
     border-radius: 100%;
-    padding: 80px 0 0 20px;
-    margin: 0 0 0 120px;
+    padding: 115px 0 0 20px;
+    margin-left: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     color: #fff;
@@ -52,9 +54,9 @@ Nesse caso, receberemos <b class="b-3">F = $115</b> no futuro.
     background-color: rgb(25, 52, 51);
   }
   div#divRow8 {
-    left: 157vh;
-    top: 60vh;
-    height: 40vh;
+    left: 127vh;
+    top: 61vh;
+    height: 39vh;
   }
   .frac {
       display: inline-block;
@@ -73,7 +75,6 @@ Nesse caso, receberemos <b class="b-3">F = $115</b> no futuro.
   .frac span.symbol {
       display: none;
   }
-
 </style>
 
 <script>

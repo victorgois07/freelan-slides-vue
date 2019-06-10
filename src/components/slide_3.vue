@@ -6,7 +6,7 @@
         O primeiro passo seria projetar custos e receitas, incluindo despesas com desenvolvimento. OK, temos agora um fluxo de valores para cada projeto, mas... <b class="b-3">Como comparar projetos com fluxos diferentes?</b> Parece ser necessário reduzir esse fluxo a um único valor, pois seria mais fácil comparar doisnúmeros. <b class="b-3">Como traduzir em um único número uma série devalores que acontecem em momento distintos?</b> A intuição diria que devemos dar um peso menor para valores que acontecem no futuro, descontando, assim, o passar do tempo...
       </article>
     </div>
-    <div id="divRow3" :style="rowBotton" class="linha-vertical"></div>
+    <div id="divRow3" ref="divRow3" :style="rowBotton" class="linha-vertical"></div>
   </div>
 </template>
 
@@ -19,7 +19,7 @@
   }
   div#divRow2 {
     top: 0;
-    height: 31vh;
+    height: 55vh;
   }
   b.b-3 {
     font-weight: normal;

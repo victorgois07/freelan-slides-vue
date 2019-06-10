@@ -2,7 +2,7 @@
   <div id="divcontainerslide-2" class="container">
     <h1 id="h1-slide-2">Como definimos se um projeto é <b>rentável</b>?</h1>
     <div id="container-text-slide-2" class="container d-flex align-items-center"><article id="article-slide-2" @click="navigateTo">primeiro passo</article></div>
-    <div id="divRow" :style="row" class="linha-vertical"></div>
+    <div id="divRow" class="linha-vertical"></div>
   </div>
 </template>
 
@@ -15,6 +15,10 @@
     border-left: 3px solid rgb(92, 212, 98);
     position: absolute;
     left: 50%;
+  }
+  div#divRow {
+    top: 73.8vh;
+    height: 26.2vh;
   }
   article#article-slide-2 {
     border: 3px solid rgb(92, 212, 98);
@@ -48,11 +52,6 @@
 <script>
 export default {
   name: 'slide_2',
-  data () {
-    return {
-      row: `height: 103px`
-    }
-  },
   methods: {
     navigateTo: function () {
       this.$router.push('/3')

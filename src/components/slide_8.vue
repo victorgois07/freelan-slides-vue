@@ -24,13 +24,15 @@
     padding-left: 70px;
   }
   div#divcontainerslide88 div#divRow8 {
-    left: 159.5vh;
+    left: 134vh;
     top: 0;
-    height: 32vh;
+    height: 24.5vh;
   }
   div#divcontainerslide88 div#div-calc-slide-8 {
-    margin: 130px 0 0 120px;
+    margin: 0 0 0 120px;
     padding: 80px 0 0 0;
+    width: 35vh;
+    height: 35vh;
   }
   div#divcontainerslide88 div.row div.col-6{
     font-family: "Times New Roman", Times, serif;
