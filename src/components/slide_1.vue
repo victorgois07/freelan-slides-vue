@@ -23,7 +23,7 @@
     margin-bottom: 100px;
   }
   article {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
     color: #fff;
     padding-left: 300px;

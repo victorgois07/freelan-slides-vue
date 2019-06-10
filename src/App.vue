@@ -1,8 +1,8 @@
 <template>
   <div id="app" class="container-fluir">
     <div id="nav">
-      <router-link :to="_translationNext"><img src="@/assets/btn-previous.png" alt=""></router-link>
-      <router-link :to="_translationPrevious"><img src="@/assets/btn-next.png" alt=""></router-link>
+      <router-link :to="_translationPrevious"><img src="@/assets/btn-previous.png" alt=""></router-link>
+      <router-link :to="_translationNext"><img src="@/assets/btn-next.png" alt=""></router-link>
     </div>
     <router-view/>
   </div>
@@ -12,10 +12,10 @@
 export default {
   computed: {
     _translationNext () {
-      return `/${Number(this.$route.params.id) + 1}`
+      return (Number(this.$route.params.id) + 1) >= 11 ? `/${10}` : `/${Number(this.$route.params.id) + 1}`
     },
     _translationPrevious () {
-      return `/${Number(this.$route.params.id) - 1}`
+      return (Number(this.$route.params.id) - 1) <= 0 ? `/${1}` : `/${Number(this.$route.params.id) - 1}`
     }
   }
 }
@@ -34,10 +34,8 @@ export default {
     height: 100%;
   }
   body {
-    background-image: url('assets/back-one.png');
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 510%;
+    background-position: 310px -520px;
     background-color: rgb(25, 52, 51);
   }
   div#nav {

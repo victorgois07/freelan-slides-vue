@@ -5,7 +5,7 @@
   <div class="home d-flex align-items-center" v-else-if="$route.params.id == 2">
     <Slide2 />
   </div>
-  <div class="home d-flex align-items-center" v-else-if="$route.params.id == 3">
+  <div class="home d-flex align-items-end" v-else-if="$route.params.id == 3">
     <Slide3 />
   </div>
   <div class="home d-flex align-items-center" v-else-if="$route.params.id == 4">
