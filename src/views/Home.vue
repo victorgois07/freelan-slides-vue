@@ -8,7 +8,7 @@
   <div class="home d-flex align-items-end" v-else-if="$route.params.id == 3">
     <Slide3 />
   </div>
-  <div class="home d-flex align-items-center" v-else-if="$route.params.id == 4">
+  <div class="home d-flex align-items-end" v-else-if="$route.params.id == 4">
     <Slide4 />
   </div>
   <div class="home d-flex align-items-center" v-else-if="$route.params.id == 5">
@@ -23,10 +23,10 @@
   <div class="home d-flex align-items-center" v-else-if="$route.params.id == 8">
     <Slide8 />
   </div>
-  <div class="home d-flex align-items-center" v-else-if="$route.params.id == 9">
+  <div class="home d-flex align-items-end" v-else-if="$route.params.id == 9">
     <Slide9 />
   </div>
-  <div class="home" v-else-if="$route.params.id == 10">
+  <div class="home d-flex align-items-end" v-else-if="$route.params.id == 10">
     <Slide10 />
   </div>
   <div class="home" v-else>

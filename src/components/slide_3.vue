@@ -19,7 +19,7 @@
   }
   div#divRow2 {
     top: 0;
-    height: 35.5%;
+    height: 31vh;
   }
   b.b-3 {
     font-weight: normal;
@@ -27,6 +27,7 @@
   }
   div#divcontainerslide3 {
     padding: 0 70px;
+    background-color: rgb(25, 52, 51);
   }
   article#article-slide-3 {
     font-family: 'Times New Roman', Times, serif;
